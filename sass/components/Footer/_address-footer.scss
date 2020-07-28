@@ -21,8 +21,9 @@
   }
 /* Флекс футера */
 .footer--flex {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: baseline;
+    // justify-content: space-between;
+    @include centeredFlex(flex,baseline,space-between);
     padding-top: 48px;
   }

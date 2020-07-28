@@ -1,6 +1,7 @@
 .modal-checkbox {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    @include centeredFlex();
     margin-left: 53px;
     margin-right: 52px;
     margin-bottom: 30px;

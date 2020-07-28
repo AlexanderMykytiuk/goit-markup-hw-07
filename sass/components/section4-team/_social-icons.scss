@@ -1,7 +1,5 @@
 .social-icons__label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex();
     fill: $border-lab-color;
     width: 44px;
     height: 44px;
